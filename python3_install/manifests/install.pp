@@ -23,7 +23,7 @@ if $python3_install::present == true {
  }
 
 
-if $python3_install::present == false {
+elsif $python3_install::present == false {
 
   case $operatingsystemmajrelease {
 
