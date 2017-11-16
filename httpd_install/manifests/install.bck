@@ -1,0 +1,9 @@
+class httpd_install::install {
+
+	package{'httpd':
+	    ensure => 'present',
+
+    }
+
+}
+
