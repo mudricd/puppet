@@ -42,8 +42,14 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class firewall_stop {
 
-     include firewall_stop::stop
+class firewall_stop (
+  
+  Boolean $service_enable = true,
+  Enum['running', 'stopped'] $service_ensure = running,
+  
+  ){ 
+   
+  contain firewall_stop::service
 
 }
