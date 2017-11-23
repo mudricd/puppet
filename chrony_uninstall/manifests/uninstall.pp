@@ -11,7 +11,7 @@ class chrony_uninstall::uninstall {
     } 
       default: {
         
-         notify {"Module ${module_name} is not supported on ${::operatingsystem}":}
+         notify {"Module $module_name is not supported on $operatingsystem $operatingsystemmajrelease":}
     }
 
   }
