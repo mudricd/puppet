@@ -12,7 +12,7 @@
 1. [Limitations - OS compatibility, etc.](#limitations)
 1. [Development - Guide for contributing to the module](#development)
 
-## Description
+## Description ##
 
 This puppet is applicable for DHB's environment only.
 In order to apply puppet_agent module to upgrade puppet agent version to the latest 
