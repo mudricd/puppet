@@ -34,7 +34,7 @@ If there's more that they should know about, though, this is the place to mentio
 ### Setup Requirements **OPTIONAL**
 
 If your module requires anything extra before setting up (pluginsync enabled,
-etc.), mention it here.
+etc.) mention it here.
 
 If your most recent release breaks compatibility or requires particular steps
 for upgrading, you might want to include an additional "Upgrading" section
