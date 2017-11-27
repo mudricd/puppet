@@ -44,6 +44,6 @@
 #
 class selinux {
 
-    include selinux::replace
+    include selinux::config
 
 }
