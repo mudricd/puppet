@@ -12,7 +12,7 @@ class chrony_uninstall::uninstall {
       default: {
 
          echo {'Notification':
-            message => 'Module $module_name is not supported on $operatingsystem $operatingsystemmajrelease'
+            message => 'Module chrony_uninstall is not supported on this distribution!'
 
       }
     }
