@@ -53,7 +53,8 @@ class epel_rpm {
 
         'RedHat',
         'Fedora',
-        'CentOS': {
+        'CentOS',
+        'OracleLinux': {
          include epel_rpm::redhatlike
          }
 
